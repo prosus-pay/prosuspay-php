@@ -9,7 +9,7 @@ use ProsusPay\Result\StorePaymentMethodOnChain as ResultStorePaymentMethodOnChai
 /**
  * Handles stores on chain payment methods.
  *
- * @see https://docs.prosuspayserver.org/API/Greenfield/v1/#tag/Store-Payment-Methods-(On-Chain)
+ * @see https://docs.prosuspay.org/API/Greenfield/v1/#tag/Store-Payment-Methods-(On-Chain)
  */
 class StorePaymentMethodOnChain extends AbstractStorePaymentMethodClient
 {
@@ -118,7 +118,7 @@ class StorePaymentMethodOnChain extends AbstractStorePaymentMethodClient
      * Returns OnChain addresses for any given xpub ($derivationScheme) and
      * account key path.
      *
-     * On how to format the account key path please check the Greenfield API
+     * On how to format the account key path please check the API
      * docs.
      *
      * @param string      $storeId

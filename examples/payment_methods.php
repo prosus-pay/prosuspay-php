@@ -14,7 +14,7 @@ $cryptoCode = 'BTC';
 
 $updatePayload = [
     'enabled' => false,
-    // Needs fixing see, https://github.com/prosuspayserver/prosuspayserver/issues/2860
+    // Needs fixing see, https://github.com/prosuspay/prosuspay/issues/2860
     'connectionString' => 'Internal Node' // external would be 'type=clightning;server=tcp://1.1.1.1:27743/',
 ];
 

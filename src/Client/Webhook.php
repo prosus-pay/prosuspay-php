@@ -178,7 +178,7 @@ class Webhook extends AbstractClient
      * otherwise. On newer versions Prosus Pay >= 1.6.4.0, if you do NOT set
      * a secret it won't change it and everything will continue to work.
      *
-     * @see https://github.com/prosuspayserver/prosuspayserver/issues/4010
+     * @see https://github.com/prosuspay/prosuspay/issues/4010
      *
      * @return ResultWebhook
      * @throws \JsonException

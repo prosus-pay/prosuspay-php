@@ -9,7 +9,7 @@ use ProsusPay\Result\StorePaymentMethodLightningNetwork as ResultStorePaymentMet
 /**
  * Handles a stores LightningNetwork payment methods.
  *
- * @see https://docs.prosuspayserver.org/API/Greenfield/v1/#tag/Store-Payment-Methods-(Lightning-Network)
+ * @see https://docs.prosuspay.org/API/Greenfield/v1/#tag/Store-Payment-Methods-(Lightning-Network)
  */
 class StorePaymentMethodLightningNetwork extends AbstractStorePaymentMethodClient
 {
@@ -56,7 +56,7 @@ class StorePaymentMethodLightningNetwork extends AbstractStorePaymentMethodClien
     /**
      * Update LightningNetwork payment methods. Allows you to enable/disable
      * them, and you can set the store LN node to be internal or some external
-     * node, see the Greenfield API docs for details.
+     * node, see the API docs for details.
      *
      * @param string $storeId
      * @param string $cryptoCode

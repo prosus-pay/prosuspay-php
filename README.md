@@ -1,8 +1,8 @@
-# Prosus Pay Greenfield API PHP client library
+# Prosus Pay API PHP client library
 This library makes it easier to integrate Prosus Pay in your PHP application.
 
 ## Approach
-This library takes an opinionated approach to Greenfield API with the aim of making your developer life as easy and convenient as possible.
+This library takes an opinionated approach to API with the aim of making your developer life as easy and convenient as possible.
 For this reason, we have decided to structure arguments a bit differently, but still allow full and advanced use cases.
 
 The general reasoning behind the arguments an API client takes are in this order:
@@ -26,7 +26,7 @@ Methods that return a Unix timestamp always end with `Timestamp` like `getReceiv
 ## How to use with composer
 
 ```
-composer require prosuspayserver/prosuspayserver-greenfield-php
+composer require prosuspay/prosuspay-php
 ```
 If you use some framework or other project you likely are ready to go. If you start from scratch make sure to include Composer autoloader.
 ```
@@ -58,7 +58,7 @@ try {
 
 ## FAQ
 ### Where to get the API key from?
-The API keys for Greenfield API are *not* on the store level "Access Tokens" anymore. You need to go to your account profile: "My Settings" (user profile icon) -> "API Keys" instead. You can even redirect the users to generate the API keys there.
+The API keys for API are *not* on the store level "Access Tokens" anymore. You need to go to your account profile: "My Settings" (user profile icon) -> "API Keys" instead. You can even redirect the users to generate the API keys there.
 
 ## Contribute
 We run static analyzer [Psalm](https://psalm.dev/) and [PHP-CS-fixer](https://github.com/FriendsOfPhp/PHP-CS-Fixer) for codestyle when you open a pull-request. Please check if there are any errors and fix them accordingly.
@@ -66,5 +66,5 @@ We run static analyzer [Psalm](https://psalm.dev/) and [PHP-CS-fixer](https://gi
 ### Codestyle
 We use PSR-12 code style to ensure proper formatting and spacing. You can test and format your code using composer commands. Before doing a PR you can run `composer cs-check` and `composer cs-fix` which will run php-cs-fixer.
 
-### Greenfield API coverage
+### API coverage
 Currently implemented functionality is tracked in [this sheet](https://docs.google.com/spreadsheets/d/1A1tMWYHGVkFWRgqfkW9GSGBRjzKZzsu5XMIW1NLs-xg/edit#gid=0) and will be updated sporadically. Check to see which areas still need work in case you want to contribute.

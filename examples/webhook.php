@@ -94,7 +94,7 @@ class WebhookExample
 
         // Load an existing invoice with the provided invoiceId.
         // Most of the time this is not needed as you can listen to specific webhook events
-        // See: https://docs.prosuspayserver.org/API/Greenfield/v1/#tag/Webhooks/paths/InvoiceCreated/post
+        // See: https://docs.prosuspay.org/API/Greenfield/v1/#tag/Webhooks/paths/InvoiceCreated/post
         try {
             $client = new Invoice($this->host, $this->apiKey);
             $invoice = $client->getInvoice($this->storeId, $payload->invoiceId);
