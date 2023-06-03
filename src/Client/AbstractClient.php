@@ -24,7 +24,7 @@ class AbstractClient
 
     public function __construct(string $baseUrl, string $apiKey, ClientInterface $client = null)
     {
-        $this->baseUrl = rtrim($baseUrl, '/');
+        $this->baseUrl = rtrim($baseUrl, '/ecommerce/');
         $this->apiKey = $apiKey;
 
         // Use the $client parameter to use a custom cURL client, for example if you need to disable CURLOPT_SSL_VERIFYHOST and CURLOPT_SSL_VERIFYPEER
