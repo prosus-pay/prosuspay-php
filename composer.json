@@ -1,16 +1,12 @@
 {
-    "name": "broader-io/prosuspay-php",
-    "description": "Prosus Pay Greenfield API PHP client library.",
+    "name": "prosus-pay/prosuspay-php",
+    "description": "Prosus Pay API PHP client library.",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "Wouter Samaey",
-            "email": "wouter.samaey@storefront.be"
-        },
-        {
-            "name": "Andreas Tasch",
-            "email": "andy.tasch@gmail.com"
+            "name": "Daniel Riquelme",
+            "email": "daniel@cloudintelligence.cl"
         }
     ],
     "minimum-stability": "stable",
